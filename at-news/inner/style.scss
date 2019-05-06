@@ -1,0 +1,37 @@
+.wc-container{
+    background-color: #ffffff;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    text-align: left;
+    // h3{
+    //     font-size: 20px;
+    //     font-weight: bold;
+    //     line-height: 1.1;
+    //     color: #505050;
+    // }
+    .wc-text{
+        font-size: 14px;
+        line-height: 1.14;
+        color: #808080;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        object-fit: contain;
+        padding-bottom: 12px;
+    }
+    // h2{
+    //     font-size:22px;
+    //     font-weight:bold;
+    //     color:#505050;
+    //     padding-bottom:26px;
+    // }
+    .wc-body{
+        p{
+            font-size: 16px;
+            line-height: 1.5;
+            color: #505050;
+        }
+    }
+}

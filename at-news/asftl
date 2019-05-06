@@ -1,0 +1,76 @@
+<#setting date_format = "yyyy-MM-dd">
+<#if entries?has_content>
+<style>
+.agency-program-and-projects{color:#505050;font-family:"Trebuchet MS",Helvetica,sans-serif}
+.agency-program-and-projects .card{background:#fff;border:1px solid #c8c8c8;padding:16px;margin-bottom:16px;border-radius:0;font-size:14px;line-height:14px}
+.agency-program-and-projects .card a{color:#004d99}
+.agency-program-and-projects .card .card-img{height:174px}
+.agency-program-and-projects .card .card-details{height:174px;position:relative}
+.agency-program-and-projects .card .card-details.no-image{height:134px}
+.agency-program-and-projects .card .card-details *{margin:0}
+.agency-program-and-projects .card .card-details .title{font-weight:600;font-size:16px;line-height:16px;margin-bottom:4px}
+.agency-program-and-projects .card .card-details .date-posted{font-size:12px}
+.agency-program-and-projects .card .card-details .description{line-height:24px;height:70px;overflow-y:hidden;margin:16px 0}
+.agency-program-and-projects .card .card-details .status{color:#000;position:absolute;bottom:0;left:0}
+.agency-program-and-projects .card .card-details .read-more{position:absolute;bottom:0;right:0}
+@media (max-width:991px){
+.agency-program-and-projects .card .card-img{margin-bottom:16px;height:100%}
+.agency-program-and-projects .card .card-details{height:130px}
+.agency-program-and-projects .card .card-details.no-image{height:120px}
+}
+@media (max-width:767px){
+.agency-program-and-projects .card .card-img{margin-bottom:16px;height:100%}
+.agency-program-and-projects .card .card-details{height:200px}
+.agency-program-and-projects .card .card-details.no-image{height:135px}
+.agency-program-and-projects .card .card-details .description{line-height:20px;height:60px}
+}
+</style>
+<div class="agency-program-and-projects">
+	<#list entries as curEntry>
+	<#assign renderer = curEntry.getAssetRenderer()/>
+	<#assign className = renderer.getClassName()/>
+	<#if className == "com.liferay.journal.model.JournalArticle">
+		<#assign journalArticle = renderer.getArticle()/>
+		<#assign docXml = saxReaderUtil.read(journalArticle.content)/>		
+		<#assign assetObject = renderer.getAssetObject() />
+		<#assign URL = assetObject.getUrlTitle()/>
+		<#assign urlPortal = themeDisplay.getURLPortal() />
+		<#assign siteName = themeDisplay.getScopeGroup().getFriendlyURL()/>
+
+		<#assign img_url = docXml.valueOf("//dynamic-element[@name='Image']/dynamic-content/text()")/>
+		<#assign link_url = docXml.valueOf("//dynamic-element[@name='ProjectLink']/dynamic-content/text()")/>
+		<#assign description = docXml.valueOf("//dynamic-element[@name='Description']/dynamic-content/text()")/>
+		<#assign date_posted = docXml.valueOf("//dynamic-element[@name='DatePosted']/dynamic-content/text()")/>
+		<#assign date_posted = date_posted?date("yyyy-MM-dd") />
+		<#assign status = docXml.valueOf("//dynamic-element[@name='Status']/dynamic-content/text()")/>
+		<#assign asset_url = urlPortal + "/web" + siteName + "/program-and-projects/-/asset_publisher/9r8NwTej535O/content/" + URL />
+
+		<div class="card">
+			<div class="row">
+				<#if img_url != ""> 
+				<div class="col-md-4">
+					<img class="card-img" width="100%" src="${img_url}"/>
+				</div>
+				</#if>
+				<div class="<#if img_url != ''>col-md-8<#else>col-md-12</#if>">
+					<div class="card-details <#if img_url == ''>no-image</#if>">
+						<p class="title"><a href="${asset_url}">${curEntry.getTitle(locale)}</a></p>
+					 	<p class="date-posted">Date Posted: ${date_posted?string("MMMM dd, yyyy")}</p>
+					 	<p class="description">
+					 		<#if description?length gt 150>
+					 			${description[0..150]}
+					 		<#else>
+					 			${description}
+					 		</#if>
+					 	</p>
+				 		<p class="status pull-left">Status: <strong>${status}</strong></p>
+					 	<a class="read-more pull-right" href="${asset_url}">Read more</a>
+					 	
+					</div>
+				</div>
+			</div>
+		</div>
+	</#if>
+	</#list>
+</div>
+</#if>

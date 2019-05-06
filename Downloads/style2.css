@@ -1,0 +1,97 @@
+.agency-downloads {
+  color: #505050;
+  font-family: "Trebuchet MS",Helvetica,sans-serif; }
+  .agency-downloads p {
+    font-size: 16px;
+    line-height: 22.5px; }
+  .agency-downloads .archive {
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    font-size: 14px;
+    color: #808080; }
+    .agency-downloads .archive a {
+      line-height: 1.14; }
+  .agency-downloads .card {
+    background: #fff;
+    border: 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 16px;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 14px; }
+    .agency-downloads .card a {
+      color: #004d99; }
+    .agency-downloads .card .card-img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: 200px; }
+    .agency-downloads .card .card-mat {
+      background-color: #7fc4fd;
+      height: 200px;
+      width: 200px; }
+    .agency-downloads .card .card-details {
+      padding: 16px;
+      min-height: 223px;
+      padding-left: 0;
+      position: relative; }
+      .agency-downloads .card .card-details .title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 4px; }
+      .agency-downloads .card .card-details .description {
+        line-height: 20px;
+        overflow-y: hidden;
+        margin: 10px 0; }
+      .agency-downloads .card .card-details .date-posted {
+        color: #808080;
+        position: absolute;
+        bottom: 22px;
+        right: 16px; }
+      .agency-downloads .card .card-details .source {
+        font-size: 16px; }
+      .agency-downloads .card .card-details .tags {
+        position: absolute;
+        bottom: 5px;
+        right: 16px;
+        font-size: 16px;
+        color: #808080; }
+        .agency-downloads .card .card-details .tags a {
+          line-height: 1.14; }
+    .agency-downloads .card .card-details * {
+      margin: 0; }
+    .agency-downloads .card .card-details.no-image {
+      padding-left: 16px; }
+    @media (max-width: 991px) {
+      .agency-downloads .card .card-img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        position: relative; }
+      .agency-downloads .card .card-mat {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover; }
+      .agency-downloads .card .card-details {
+        padding-left: 16px; } }
+    @media (max-width: 767px) {
+      .agency-downloads .card .card-details .description {
+        line-height: 20px; }
+      .agency-downloads .card .card-details .tags {
+        bottom: 0;
+        left: 15px; }
+      .agency-downloads .card .card-details .date-posted {
+        position: relative;
+        bottom: 0px;
+        left: 0px; } }
+
+/*# sourceMappingURL=style2.css.map */

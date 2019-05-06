@@ -1,0 +1,61 @@
+.forms-container {
+  background: white;
+  font-family: "Trebuchet MS",Helvetica,sans-serif; }
+  .forms-container p {
+    font-size: 16px;
+    line-height: 22.5px; }
+  .forms-container .card-forms {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white);
+    margin-bottom: 30px; }
+    .forms-container .card-forms a {
+      display: block;
+      padding: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1;
+      color: #505050; }
+  .forms-container .card-content {
+    padding: 30px; }
+    .forms-container .card-content .forms-content {
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      background-color: var(--white);
+      margin-bottom: 20px;
+      padding: 30px;
+      padding-top: 10px; }
+      .forms-container .card-content .forms-content .forms-heading {
+        font-size: 16px;
+        font-weight: bold;
+        color: #505050; }
+      .forms-container .card-content .forms-content .ellip {
+        display: block;
+        display: -webkit-box;
+        height: 69px;
+        line-height: 1.4;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .forms-container .card-content .forms-content .read-more {
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        cursor: pointer;
+        letter-spacing: normal;
+        text-align: right;
+        color: #004d99;
+        padding: 7px; }
+      .forms-container .card-content .forms-content .forms-footer {
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #004d99;
+        padding: 7px; }
+
+/*# sourceMappingURL=main.css.map */

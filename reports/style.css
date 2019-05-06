@@ -1,0 +1,56 @@
+.agency-reports {
+  color: #505050;
+  font-family: "Trebuchet MS",Helvetica,sans-serif; }
+  .agency-reports p {
+    font-size: 16px;
+    line-height: 22.5px; }
+  .agency-reports .card {
+    background: #fff;
+    border: 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 16px;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 14px; }
+    .agency-reports .card a {
+      color: #004d99; }
+    .agency-reports .card .card-details {
+      padding: 16px;
+      padding-top: 23px;
+      height: auto;
+      position: relative; }
+      .agency-reports .card .card-details .title {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 16px;
+        margin-bottom: 10px; }
+      .agency-reports .card .card-details .description {
+        font-size: 14px;
+        line-height: 1.71;
+        color: #505050;
+        overflow-y: hidden;
+        margin: 20px 0; }
+      .agency-reports .card .card-details .date-posted {
+        font-size: 12px;
+        color: #808080; }
+      .agency-reports .card .card-details .tags {
+        position: absolute;
+        bottom: 5px;
+        right: 16px;
+        font-size: 16px;
+        color: #808080; }
+        .agency-reports .card .card-details .tags a {
+          line-height: 1.14; }
+      .agency-reports .card .card-details .read-more {
+        font-size: 16px;
+        color: #004d99;
+        position: absolute;
+        bottom: 22px;
+        right: 16px;
+        padding-bottom: 8px; }
+    .agency-reports .card .card-details.no-desc {
+      height: 70px; }
+    .agency-reports .card .card-details * {
+      margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

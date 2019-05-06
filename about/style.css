@@ -1,0 +1,18 @@
+.agency-about {
+  font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif; }
+  .agency-about .title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #505050; }
+  .agency-about .card {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 20px 0px 20px 10px; }
+    .agency-about .card .title {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #004d99; }
+    .agency-about .card .details {
+      padding: 16px; }
+
+/*# sourceMappingURL=style.css.map */

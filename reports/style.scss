@@ -1,0 +1,66 @@
+.agency-reports{
+    color:#505050;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    p{
+        font-size: 16px;
+        line-height: 22.5px;
+    }
+    .card{
+        background:#fff;
+        border:0;
+        box-shadow:0 3px 6px 0 rgba(0,0,0,.16);
+        margin-bottom:16px;
+        border-radius:0;
+        font-size:14px;
+        line-height:14px;
+        a{color:#004d99;}
+        .card-details{
+            padding:16px;
+            padding-top: 23px;
+            height:auto;
+            position:relative;
+            .title{
+                font-size: 16px;
+                font-weight: bold;
+                line-height:16px;
+                margin-bottom:10px;
+            }
+            .description{
+                font-size: 14px;
+                line-height: 1.71;
+                color: #505050;
+                overflow-y:hidden;
+                margin:20px 0;
+            }
+            .date-posted{
+                font-size:12px;
+                color: #808080;
+            }
+            .tags{
+                position:absolute;
+                bottom:5px;
+                right:16px;
+                font-size: 16px;
+                color: #808080;
+                a{
+                    line-height: 1.14;
+                }
+            }
+            .read-more{
+                font-size: 16px;
+                color: #004d99;
+                position:absolute;
+                bottom:22px;
+                right:16px;
+                padding-bottom: 8px;
+            }
+        }
+        .card-details.no-desc{
+            height: 70px;
+        }
+        
+        .card-details *{
+            margin:0;
+        }
+    }      
+}

@@ -1,0 +1,17 @@
+.wc-container {
+  font-family: "Trebuchet MS",Helvetica,sans-serif; }
+  .wc-container thead {
+    border: 1px solid black; }
+    .wc-container thead th {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: center;
+      color: #505050; }
+  .wc-container tbody {
+    text-align: center; }
+    .wc-container tbody tr {
+      border: 0px; }
+      .wc-container tbody tr td {
+        border-bottom: solid #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

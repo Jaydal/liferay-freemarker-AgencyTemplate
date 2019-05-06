@@ -1,0 +1,21 @@
+.wc-container {
+  background-color: #ffffff;
+  font-family: "Trebuchet MS",Helvetica,sans-serif;
+  text-align: left; }
+  .wc-container .wc-text {
+    font-size: 14px;
+    line-height: 1.14;
+    color: #808080; }
+  .wc-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    object-fit: contain;
+    padding-bottom: 12px; }
+  .wc-container .wc-body p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #505050; }
+
+/*# sourceMappingURL=style.css.map */

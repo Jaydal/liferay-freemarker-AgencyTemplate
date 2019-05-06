@@ -1,0 +1,1 @@
+<#assign records = ddlDisplayTemplateHelper.getRecords(reserved_record_set_id)>

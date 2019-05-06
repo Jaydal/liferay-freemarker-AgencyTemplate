@@ -1,0 +1,122 @@
+.agency-downloads{
+    color:#505050;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    p{
+        font-size: 16px;
+        line-height: 22.5px;
+    }
+    .archive{
+        position:absolute;
+        top:5px;
+        right:16px;
+        font-size: 14px;
+        color: #808080;
+        a{
+            line-height: 1.14;
+        }
+    }
+    .card{
+        background:#fff;
+        border:0;
+        box-shadow:0 3px 6px 0 rgba(0,0,0,.16);
+        margin-bottom:16px;
+        border-radius:0;
+        font-size:14px;
+        line-height:14px;
+        a{color:#004d99;}
+        .card-img{
+            position:absolute;
+            top:0;
+            bottom:0;
+            margin:auto;
+            width: 200px;
+        }
+        .card-mat{
+            background-color:#7fc4fd;
+            height: 200px;
+            width: 200px;
+        }
+        .card-details{
+            padding:16px;
+            min-height:223px;
+            padding-left:0;
+            position:relative;
+            .title{
+                font-weight:600;
+                font-size:16px;
+                line-height:16px;
+                margin-bottom:4px;
+            }
+            .description{
+                line-height:20px;
+                overflow-y:hidden;
+                margin:10px 0;
+            }
+            .date-posted{
+                color: #808080;
+                position:absolute;
+                bottom:22px;
+                right:16px;
+            }
+            .source{
+                font-size: 16px;
+            }
+
+            .tags{
+                position:absolute;
+                bottom:5px;
+                right:16px;
+                font-size: 16px;
+                color: #808080;
+                a{
+                    line-height: 1.14;
+                }
+            }
+        }
+        .card-details *{
+            margin:0;
+        }
+        .card-details.no-image{
+            padding-left:16px;
+        }
+        @media (max-width:991px){
+            .card-img{
+                width: 100%;
+                height: auto;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                object-fit: cover;
+                position: relative;
+            }
+            .card-mat{
+                width: 100%;
+                height: auto;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                object-fit: cover;
+            }
+            .card-details{
+                padding-left:16px;
+            }
+        }
+        @media (max-width:767px){
+            .card-details{
+                .description{
+                    line-height:20px;
+                }
+                .tags{
+                    bottom:0;
+                    left:15px;
+                }
+                .date-posted{
+                    position:relative;
+                    bottom: 0px;
+                    left: 0px;
+                }
+            }
+           
+        }
+    }      
+}

@@ -1,0 +1,72 @@
+.downloads-container{
+    background:white;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    text-align: left;
+    margin-bottom: 30px;
+    .card-downloads{
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: var(--white);
+        .dl-content{
+            padding-top:10px;
+            @media (max-width:960px) {
+                padding-left:20px;
+            }
+                a.card-title{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #004d99;
+                }
+                p.card-label{
+                    font-size: 14px;
+                    line-height: 1.14;
+                    color: #808080;
+                    img{
+                        width: 9.9px;
+                        height: 12.4px;
+                    }
+
+                }
+                p.card-description{
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #505050;
+                    height: 69px;
+                }
+                p.card-source{
+                    font-size: 16px;
+                    color: #004d99;
+                }
+   
+        }
+        .dl-material{
+            img,video{
+                max-width: 230px;
+                @media (max-width:960px) {
+                    padding-top: 0px;
+                    width: 100%;
+                    max-width: 760px;
+                    height: auto;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+        .wc-right{
+            padding-right: 25px;
+            font-size: 14px;
+            line-height: 1.14;
+            text-align: right;
+            color: #808080;
+            padding-bottom: 5px;
+            a{
+                color: #004d99;
+            }
+            p{
+                margin: 0;
+            }
+        }
+
+    }
+
+}

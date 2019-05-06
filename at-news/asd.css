@@ -1,0 +1,23 @@
+.agency-program-and-projects{color:#505050;font-family:"Trebuchet MS",Helvetica,sans-serif}
+.agency-program-and-projects .card{background:#fff;border:1px solid #c8c8c8;padding:16px;margin-bottom:16px;border-radius:0;font-size:14px;line-height:14px}
+.agency-program-and-projects .card a{color:#004d99}
+.agency-program-and-projects .card .card-img{height:174px}
+.agency-program-and-projects .card .card-details{height:174px;position:relative}
+.agency-program-and-projects .card .card-details.no-image{height:134px}
+.agency-program-and-projects .card .card-details *{margin:0}
+.agency-program-and-projects .card .card-details .title{font-weight:600;font-size:16px;line-height:16px;margin-bottom:4px}
+.agency-program-and-projects .card .card-details .date-posted{font-size:12px}
+.agency-program-and-projects .card .card-details .description{line-height:24px;height:70px;overflow-y:hidden;margin:16px 0}
+.agency-program-and-projects .card .card-details .status{color:#000;position:absolute;bottom:0;left:0}
+.agency-program-and-projects .card .card-details .read-more{position:absolute;bottom:0;right:0}
+@media (max-width:991px){
+.agency-program-and-projects .card .card-img{margin-bottom:16px;height:100%}
+.agency-program-and-projects .card .card-details{height:130px}
+.agency-program-and-projects .card .card-details.no-image{height:120px}
+}
+@media (max-width:767px){
+.agency-program-and-projects .card .card-img{margin-bottom:16px;height:100%}
+.agency-program-and-projects .card .card-details{height:200px}
+.agency-program-and-projects .card .card-details.no-image{height:135px}
+.agency-program-and-projects .card .card-details .description{line-height:20px;height:60px}
+}

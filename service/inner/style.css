@@ -1,0 +1,22 @@
+.services-content {
+  font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif; }
+  .services-content .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; }
+  .services-content .title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #505050; }
+  .services-content .card {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 20px 0px 20px 10px; }
+    .services-content .card a {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #505050; }
+    .services-content .card .details {
+      padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */

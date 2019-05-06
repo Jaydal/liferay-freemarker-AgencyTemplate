@@ -1,0 +1,31 @@
+.agency-container {
+  font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif;
+  margin-bottom: 30px; }
+  .agency-container .services-card {
+    background: white;
+    height: auto;
+    box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 30px; }
+    .agency-container .services-card .wc-services {
+      display: block;
+      text-decoration: none; }
+      .agency-container .services-card .wc-services .services-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px; }
+      .agency-container .services-card .wc-services p.services-title {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        color: #004d99;
+        margin: 0;
+        padding: 0; }
+      .agency-container .services-card .wc-services .services-description {
+        line-height: 1.71;
+        color: #505050;
+        height: auto;
+        padding-top: 10px;
+        margin-left: 55px;
+        margin-right: 55px; }
+
+/*# sourceMappingURL=style.css.map */

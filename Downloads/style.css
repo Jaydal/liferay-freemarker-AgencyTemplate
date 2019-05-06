@@ -1,0 +1,56 @@
+.downloads-container {
+  background: white;
+  font-family: "Trebuchet MS",Helvetica,sans-serif;
+  text-align: left;
+  margin-bottom: 30px; }
+  .downloads-container .card-downloads {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white); }
+    .downloads-container .card-downloads .dl-content {
+      padding-top: 10px; }
+      @media (max-width: 960px) {
+        .downloads-container .card-downloads .dl-content {
+          padding-left: 20px; } }
+      .downloads-container .card-downloads .dl-content a.card-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #004d99; }
+      .downloads-container .card-downloads .dl-content p.card-label {
+        font-size: 14px;
+        line-height: 1.14;
+        color: #808080; }
+        .downloads-container .card-downloads .dl-content p.card-label img {
+          width: 9.9px;
+          height: 12.4px; }
+      .downloads-container .card-downloads .dl-content p.card-description {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #505050;
+        height: 69px; }
+      .downloads-container .card-downloads .dl-content p.card-source {
+        font-size: 16px;
+        color: #004d99; }
+    .downloads-container .card-downloads .dl-material img, .downloads-container .card-downloads .dl-material video {
+      max-width: 230px; }
+      @media (max-width: 960px) {
+        .downloads-container .card-downloads .dl-material img, .downloads-container .card-downloads .dl-material video {
+          padding-top: 0px;
+          width: 100%;
+          max-width: 760px;
+          height: auto;
+          display: block;
+          margin-left: auto;
+          margin-right: auto; } }
+    .downloads-container .card-downloads .wc-right {
+      padding-right: 25px;
+      font-size: 14px;
+      line-height: 1.14;
+      text-align: right;
+      color: #808080;
+      padding-bottom: 5px; }
+      .downloads-container .card-downloads .wc-right a {
+        color: #004d99; }
+      .downloads-container .card-downloads .wc-right p {
+        margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+.wc-reports {
+  font-family: "Trebuchet MS",Helvetica,sans-serif; }
+  .wc-reports p {
+    font-size: 16px;
+    line-height: 22.5px;
+    margin: 0;
+    color: #808080; }
+  .wc-reports .tags {
+    font-size: 14px;
+    color: #004d99;
+    line-height: 1.14; }
+  .wc-reports .body {
+    padding-top: 25px; }
+
+/*# sourceMappingURL=reposts-inner.css.map */

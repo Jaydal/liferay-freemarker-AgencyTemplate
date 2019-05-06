@@ -1,0 +1,67 @@
+.wc-news{
+    background:white;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    text-align: left;
+    margin-bottom: 30px;
+    h2{
+        font-size:22px;
+        font-weight:bold;
+        color:#505050;
+        padding-bottom:26px;
+    }
+    .card-news{
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: var(--white);
+        .news-content{
+            padding-right: 30px;
+            padding-top:10px;
+            @media (max-width:960px) {
+                padding-left:20px;
+            }
+            a.read-more{
+                font-size: 16px;
+                line-height: 1;
+                color: #004d99;
+                padding-bottom: 15px;
+            }
+            .news-content-inner{
+                padding-right: 63px;
+                padding-top: 15px;
+                padding-bottom: 30px;
+                a.card-title{
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 1;
+                    text-align: left;
+                    color: #505050;
+                }
+                p.date-posted{
+                    font-family: Arial;
+                    font-size: 12px;
+                    color: #545454;
+                }
+                p.news-body{
+                    font-size: 16px;
+                    line-height: 1.5;
+                    text-align: left;
+                    color: #505050;
+                }
+            }
+   
+        }
+        img{
+            height: 200px;
+            width: auto;
+            min-width: 115px;
+            @media (max-width:960px) {
+                width: 100%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+    }
+
+}
